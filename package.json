@@ -1,0 +1,19 @@
+{
+  "name": "cypress-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "cy:run": "cypress run",
+    "record": "cypress run  --record --key <your_dashboard_key>",
+    "lambdarun":"lambdatest-cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.1.1",
+    "lambdatest-cypress-cli": "^2.1.2"
+  }
+}

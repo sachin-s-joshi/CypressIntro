@@ -1,0 +1,52 @@
+{
+   "lambdatest_auth": {
+      "username": "<LT_User>",
+      "access_key": "<access_key from LT>"
+   },
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "Windows 10",
+         "versions": [
+            "96.0"
+         ]
+      },
+      {
+         "browser": "Firefox",
+         "platform": "Windows 10",
+         "versions": [
+            "86.0"
+         ]
+      },
+      {
+         "browser": "Chrome",
+         "platform": "macOS Big Sur",
+         "versions": [
+            "93.0"
+         ]
+      },
+      
+      {
+         "browser": "Firefox",
+         "platform": "macOS Big Sur",
+         "versions": [
+            "86.0"
+         ]
+      }
+   ],
+   "run_settings": {
+      "cypress_config_file": "cypress.json",
+      "build_name": "build-name",
+      "parallels": 1,
+      "specs": "./cypress/integration/examples/checkbox.spec.js",
+      "ignore_files": "",
+      "feature_file_suppport": false,
+      "network": false,
+      "headless": false,
+      "reporter_config_file": ""
+   },
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnel_name": null
+   }
+}
